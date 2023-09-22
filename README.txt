@@ -1,0 +1,1 @@
+Binar Car Rental is a project where i use to practice my html, css, bootstrap and git
