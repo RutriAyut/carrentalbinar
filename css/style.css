@@ -323,8 +323,83 @@ nav,
     gap: 24px;
   }
 
+  .main--margin,
   .main--padding--lr {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .ourservices-foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ourservices-foto img {
+    width: 252px;
+  }
+
+  .mo-center {
+    text-align: center;
+  }
+
+  .mt-main {
+    margin-top: 60px;
+  }
+
+  .whyus-card-container {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 28px !important;
+  }
+
+  .cta {
+    padding: 64px;
+  }
+
+  .cta .text-hero-bold {
+    font-size: var(--header-2);
+    text-align: center;
+  }
+
+  .cta .btn-default {
+    margin-top: 32px;
+  }
+
+  .faq-container {
+    flex-direction: column;
+  }
+
+  .faq-tittle {
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-col {
+    margin-bottom: 16px;
+  }
+
+  #ourservices .mt-4 {
+    margin-top: 16px !important;
+  }
+
+  .offcanvas.show:not(.hiding),
+  .offcanvas.showing {
+    width: 180px;
+  }
+  .offcanvas-header {
+    padding: 36px 24px 18px 16px;
+  }
+  .offcanvas-body {
+    padding: 0;
+  }
+  .nav-link {
+    padding: 0;
+  }
+  .nav-item {
+    padding: 0 0 16px 16px !important;
   }
 }
