@@ -416,4 +416,7 @@ nav,
   .carousel-inner {
     margin: 16px;
   }
+  .testimonial-item-right .p-light {
+    margin: 0;
+  }
 }
