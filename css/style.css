@@ -23,7 +23,7 @@ body {
   margin: 0;
   font-size: var(--text-medium);
   font-weight: var(--font-weight-light);
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 
 /* text */
@@ -36,54 +36,53 @@ body {
 .h2-bold {
   font-size: var(--header-2);
   font-weight: var(--font-weight-bold);
-  line-height: 36px;
+  line-height: 2.25rem;
 }
 /* p */
 .p-light {
   font-size: var(--text-medium);
   font-weight: var(--font-weight-light);
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 .p-regular {
   font-size: var(--text-medium);
   font-weight: var(--font-weight-reguler);
-  line-height: 20px;
+  line-height: 1.25rem;
 }
 .p-bold {
   font-size: var(--text-large);
   font-weight: var(--font-weight-bold);
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 .p-regular a {
   text-decoration: none;
   color: var(--primary);
 }
 
-/* marrgin for the page */
 .main--margin {
-  margin-left: 136px;
-  margin-right: 136px;
+  margin-left: 8.5rem;
+  margin-right: 8.5rem;
 }
 .mt-main {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 .main--padding--lr {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 12.5rem;
+  margin-right: 12.5rem;
 }
 
-/* padding for the page */
 .main--padding {
-  padding-left: 136px;
-  padding-right: 136px;
+  padding-left: 8.5rem;
+  padding-right: 8.5rem;
 }
+
 .main--padding--right-0 {
   padding-right: 0;
 }
 
 /* button */
 .btn {
-  padding: 8px 12px;
+  padding: 0.5rem 0.75rem;
   border-radius: 2px;
 }
 
@@ -95,7 +94,7 @@ nav .btn-default {
   font-size: var(--text-medium);
   font-style: normal;
   font-weight: var(--font-weight-bold);
-  line-height: 20px; /* 142.857% */
+  line-height: 1.25rem;
 }
 
 header,
@@ -113,50 +112,50 @@ nav,
 }
 
 .logo {
-  width: 100px;
-  height: 34px;
+  width: 6.25rem;
+  height: 2.125rem;
   flex-shrink: 0;
   background: var(--primary-dark-blue-04);
 }
 
 .gap-hero {
-  gap: 32px;
+  gap: 2rem;
 }
 
 /* mobil size */
 .mobil--size {
-  max-width: 704px;
-  max-height: 407px;
+  max-width: 44rem;
+  max-height: 25.5rem;
 }
 .foto-bg {
   width: inherit;
   height: 60%;
-  border-radius: 60px 0px 0px 0px;
+  border-radius: 3.75rem 0px 0px 0px;
   background: var(--primary-dark-blue-04);
 }
 .mobil-box--size {
-  height: 407px;
+  height: 25.5rem;
 }
 
 .icon-check {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 20px;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 /* .why us */
 .whyus-card-container {
-  gap: 32px;
+  gap: 2rem;
 }
 .whyus-card {
   border-radius: 8px;
   border: 1px solid var(--neutral-02);
-  padding: 24px;
+  padding: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
+  gap: 1rem;
 }
 #whyus .row {
   display: flex;
@@ -176,9 +175,9 @@ nav,
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 24px;
-  gap: 32px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  gap: 2rem;
 }
 .carousel-item {
   margin: 0;
@@ -211,14 +210,14 @@ nav,
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .testimonial-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .testimonial-btn button {
@@ -245,7 +244,7 @@ nav,
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 16px;
+  gap: 1rem;
   padding: 64px 0px;
 }
 .cta .p-light {
@@ -268,7 +267,7 @@ nav,
   width: 100%;
 }
 .accordion-item {
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 .accordion-button {
   border: 1px solid #d4d4d4;
@@ -286,37 +285,35 @@ nav,
 }
 .footer-col {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
   flex-direction: column;
 }
 .sm-row {
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 1rem;
 }
 .sm {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   background-color: var(--primary-dark-blue-04);
   border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.address {
-  width: 268px;
-}
+.address,
 .copyright--width {
   width: 268px;
 }
 .mb-footer {
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 
 @media (max-width: 768px) {
   .main--padding {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .main--padding--right-0 {
     padding-right: 0;
@@ -328,13 +325,13 @@ nav,
     width: 344.216px;
   }
   .gap-hero {
-    gap: 24px;
+    gap: 1.5rem;
   }
 
   .main--margin,
   .main--padding--lr {
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .ourservices-foto {
@@ -352,17 +349,17 @@ nav,
   }
 
   .mt-main {
-    margin-top: 60px;
+    margin-top: 3.75rem;
   }
 
   .whyus-card-container {
     flex-direction: column;
-    gap: 16px;
-    margin-top: 28px !important;
+    gap: 1rem;
+    margin-top: 1.75rem !important;
   }
 
   .cta {
-    padding: 64px;
+    padding: 4ren;
   }
 
   .cta .text-hero-bold {
@@ -371,7 +368,7 @@ nav,
   }
 
   .cta .btn-default {
-    margin-top: 32px;
+    margin-top: 2rem;
   }
 
   .faq-container {
@@ -379,7 +376,7 @@ nav,
   }
 
   .faq-tittle {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
     text-align: center;
   }
 
@@ -387,19 +384,19 @@ nav,
     flex-direction: column;
   }
   .footer-col {
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
 
   #ourservices .mt-4 {
-    margin-top: 16px !important;
+    margin-top: 1rem !important;
   }
 
   .offcanvas.show:not(.hiding),
   .offcanvas.showing {
-    width: 180px;
+    width: 11.25rem;
   }
   .offcanvas-header {
-    padding: 36px 24px 18px 16px;
+    padding: 2.25rem 1.5rem 1.125rem 1rem;
   }
   .offcanvas-body {
     padding: 0;
@@ -408,23 +405,23 @@ nav,
     padding: 0;
   }
   .nav-item {
-    padding: 0 0 16px 16px !important;
+    padding: 0 0 1rem 1rem !important;
   }
 
   .testimonial-item {
     flex-basis: 100%;
-    gap: 24px;
+    gap: 1.5rem;
     flex-direction: column;
-    padding: 40px 32px;
+    padding: 2.5rem 2rem;
   }
   .testimonial-item-right img {
     margin: 0 auto;
   }
   .testimonial-item-right .p-light {
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
   }
   .carousel-inner {
-    margin: 16px;
+    margin: 1rem;
   }
   .testimonial-item-right .p-light {
     margin: 0;
