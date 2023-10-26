@@ -11,6 +11,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": true,
+    "driver": true,
     "type": "Sedan",
     "year": 2022,
     "options": [
@@ -41,6 +42,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Convertible",
     "year": 2019,
     "options": [
@@ -70,6 +72,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": false,
     "type": "Sedan",
     "year": 2021,
     "options": [
@@ -104,6 +107,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": true,
+    "driver": false,
     "type": "Hatchback",
     "year": 2018,
     "options": [
@@ -138,6 +142,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Minivan",
     "year": 2020,
     "options": [
@@ -167,6 +172,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": false,
     "type": "Hatchback",
     "year": 2016,
     "options": [
@@ -197,6 +203,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Sedan",
     "year": 2020,
     "options": [
@@ -230,6 +237,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": true,
+    "driver": true,
     "type": "Regular Cab Pickup",
     "year": 2014,
     "options": [
@@ -260,6 +268,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Extended Cab Pickup",
     "year": 2012,
     "options": [
@@ -292,6 +301,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": true,
+    "driver": true,
     "type": "Hatchback",
     "year": 2019,
     "options": [
@@ -321,6 +331,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Coupe",
     "year": 2019,
     "options": [
@@ -354,6 +365,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": false,
     "type": "Passenger Van",
     "year": 2018,
     "options": [
@@ -390,6 +402,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "CVT",
     "available": true,
+    "driver": false,
     "type": "SUV",
     "year": 2017,
     "options": [
@@ -419,6 +432,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": false,
+    "driver": true,
     "type": "Regular Cab Pickup",
     "year": 2020,
     "options": [
@@ -451,6 +465,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": true,
     "type": "Regular Cab Pickup",
     "year": 2017,
     "options": [
@@ -486,6 +501,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": true,
+    "driver": true,
     "type": "Convertible",
     "year": 2021,
     "options": [
@@ -516,6 +532,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automanual",
     "available": false,
+    "driver": true,
     "type": "Regular Cab Pickup",
     "year": 2015,
     "options": [
@@ -549,6 +566,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "CVT",
     "available": false,
+    "driver": true,
     "type": "Sedan",
     "year": 2014,
     "options": [
@@ -582,6 +600,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Convertible",
     "year": 2021,
     "options": [
@@ -617,6 +636,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Crew Cab Pickup",
     "year": 2012,
     "options": [
@@ -648,6 +668,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Manual",
     "available": false,
+    "driver": true,
     "type": "SUV",
     "year": 2013,
     "options": [
@@ -678,6 +699,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Coupe",
     "year": 2020,
     "options": [
@@ -713,6 +735,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Extended Cab Pickup",
     "year": 2022,
     "options": [
@@ -749,6 +772,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "Automatic",
     "available": false,
+    "driver": true,
     "type": "Sedan",
     "year": 2022,
     "options": [
@@ -781,6 +805,7 @@
     "availableAt": "2022-03-23T15:49:05.563Z",
     "transmission": "CVT",
     "available": false,
+    "driver": true,
     "type": "Wagon",
     "year": 2015,
     "options": [
